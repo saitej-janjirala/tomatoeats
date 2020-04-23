@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/topline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+        <TextView
+            android:id="@+id/itemname"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/comic"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_remove_black_24dp"
+            android:drawablePadding="10dp"
+            />
+        <TextView
+            android:id="@+id/itemprice"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:fontFamily="@font/comic"
+            android:padding="10dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

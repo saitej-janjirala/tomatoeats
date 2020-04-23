@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">tomato eats</string>
+    <string name="your_starving_ends_here">Your Starving Ends Here</string>
+    <string name="tomato_eats">Tomato Eats</string>
+    <string name="forgot_password"><u>Forgot password?</u></string>
+    <string name="don_t_have_an_account_sign_up_now"><u>Don\'t Have an account?Sign up now</u></string>
+    <string name="mobilenumber">mobile number must be 10 digits</string>
+    <string name="password">password should be atleast 6 digits</string>
+    <string name="open_drawer">open drawer</string>
+    <string name="close_drawer">close drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

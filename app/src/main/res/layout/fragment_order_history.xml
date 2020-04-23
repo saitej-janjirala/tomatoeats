@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.OrderHistory">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/justtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/darkgrey"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:text="Your previous orders are listed below:" />
+    <TextView
+        android:id="@+id/blank"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/darkgrey"
+        android:layout_below="@+id/justtext"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/previousordersrecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/blank"
+        />
+    <RelativeLayout
+        android:id="@+id/shoppingcartrelative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/shoppingcartimage"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/ic_shopping_cart_black_24dp"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:layout_below="@+id/shoppingcartimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/darkgrey"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="You haven't placed any orders yet"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

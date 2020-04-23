@@ -1,0 +1,2 @@
+rootProject.name='tomato eats'
+include ':app'

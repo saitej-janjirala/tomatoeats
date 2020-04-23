@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Restaurantitems"
+    android:theme="@style/signup">
+    <RelativeLayout
+        android:id="@+id/textrelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose from menu listed below:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="@font/comic"
+            android:padding="5dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:drawablePadding="5dp"
+            android:drawableEnd="@drawable/ic_favorite_border_black_24dp"/>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/menurecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textrelative"
+        android:layout_above="@+id/proceedtocart"
+        android:layout_marginBottom="10dp"/>
+    <RelativeLayout
+        android:id="@+id/progresslayoutmenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/proceedtocart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:fontFamily="@font/comic"
+        android:textAllCaps="false"
+        android:text="Proceed to Cart"/>
+
+</RelativeLayout>
