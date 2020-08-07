@@ -13,6 +13,7 @@ import android.widget.RelativeLayout
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.core.app.ActivityCompat
+import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.android.volley.Request
@@ -76,6 +77,7 @@ class Home : Fragment(){
                             adapter.setadapter(adapter)
                             layoutManager=LinearLayoutManager(activity as Context)
                             mrecyclerview.layoutManager=layoutManager
+                           // mrecyclerview.itemAnimator=DefaultItemAnimator()
                             mrecyclerview.adapter=adapter
 
                         }

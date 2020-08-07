@@ -26,7 +26,9 @@ class RestaurantsAdapter(val context:Context, val arrayList: ArrayList<Restauran
     lateinit var madapter:RestaurantsAdapter
     lateinit var mview:RelativeLayout
     var valforfavourites=false
-
+    interface onitemclicklistener{
+        fun onfavouriteclicked()
+    }
     class RestaurantsViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
         val rimageview:ImageView=itemView.findViewById(R.id.restaurantimage)
         val rname:TextView=itemView.findViewById(R.id.restaurantname)

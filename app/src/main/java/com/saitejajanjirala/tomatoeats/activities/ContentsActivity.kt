@@ -1,4 +1,4 @@
-package com.saitejajanjirala.tomatoeats.activities
+ package com.saitejajanjirala.tomatoeats.activities
 
 import android.app.Activity
 import android.app.AlertDialog
@@ -130,6 +130,7 @@ class ContentsActivity : AppCompatActivity() {
         drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
     }
+
     fun openhome(){
         navigationView.setCheckedItem(R.id.Home)
         supportFragmentManager.beginTransaction().replace(
