@@ -11,7 +11,7 @@
   </tr>
 <tr>
     <td><img src="screenshots/3.jpg" width=360 height=640></td>
-    <td><img src="4.jpg" width=360 height=640></td>
+    <td><img src="screenshots/4.jpg" width=360 height=640></td>
   </tr>
 <tr>
     <td><img src="screenshots/5.jpg" width=360 height=640></td>
