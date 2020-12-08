@@ -1,5 +1,5 @@
 # tomatoeats
-#A  simple food app using Kotlin
+#A  simple food ordering app using Kotlin
 
 
 ## screenshots 
